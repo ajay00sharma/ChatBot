@@ -1,0 +1,19 @@
+The codeing is done by reffering to the youtube video https://www.youtube.com/watch?v=t933Gh5fNrc so there are similaritys but not  100% same as in that video
+To execute the files, you need to have a Python compiler installed. Follow these steps:
+
+1. Install the necessary packages and libraries:
+   - numpy: pip install numpy
+   - tensorflow: pip install tensorflow
+   - nltk: pip install nltk
+   - nltk.download('wordnet'): Uncomment line 9 in new.py to download the WordNet corpus from NLTK, which is necessary for lemmatization.
+
+2. Adjust the file paths for intents.json accordingly with raw string literals(it is situated in Include folder ) in both new.py and chatbot.py. This ensures that the code can locate and access the required files correctly.
+
+3. Execute the files in the following order:
+   - Run new.py first to preprocess the data and train the chatbot model.
+   - Then, execute chatbot.py to run the chatbot and interact with it.
+
+Please note:
+- Review and modify the code as needed to suit your specific requirements.
+- You can add more tags, patterns,responses and context to train  the chatbot in intents.json file
+- Ensure that your Python environment is set up correctly, and all dependencies are installed before running the code.

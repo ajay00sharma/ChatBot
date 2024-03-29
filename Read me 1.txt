@@ -1,0 +1,19 @@
+To run the chatbot, follow the steps below:
+
+1.Open Command Prompt (cmd) and navigate to the folder where the chatbot code is saved.
+
+2. Type the following command to create a virtual environment:-
+"python -m venv <folder_name_to_create>"
+(Replace <folder_name_to_create> with the desired name for your virtual environment.)
+
+3. Activate the virtual environment by running the following command:-
+"<folder_name>\Scripts\activate"
+If the above command doesn't work, try specifying the full path to the folder:-
+"<folder_path>\<folder_name>\Scripts\activate"
+
+After activation, you should see the virtual environment name in parentheses along with the working directory, for example:
+
+(<folder_name>) <working_directory>
+On my system, the command looks like this: (chatbot) E:\Python>
+
+Now, open the Readme2.txt file and correct any mistakes or provide additional instructions as needed.
